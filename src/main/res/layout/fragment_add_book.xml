@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/upload_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_book_page_upload_button"
+            android:background="@color/red"
+            android:textColor="@color/white"
+            android:padding="@dimen/default_margin"
+            style="@style/TitleTextStyle"
+            />
+
+        <ImageView
+            android:id="@+id/preview_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/trending1"
+            android:scaleType="centerCrop"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/title_input"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="@string/add_book_page_name_input"
+        android:paddingLeft="@dimen/default_margin"
+        android:layout_marginTop="@dimen/item_margin"
+        style="@style/DefaultTextStyle"/>
+
+    <EditText
+        android:id="@+id/description_input"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="@string/add_book_page_description_input"
+        android:paddingLeft="@dimen/default_margin"
+        android:layout_marginTop="@dimen/item_margin"
+        style="@style/DefaultTextStyle"/>
+
+    <Spinner
+        android:id="@+id/comics_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:entries="@array/add_book_page_autor_input"
+        android:hint="@string/add_book_page_description_input"
+        android:paddingLeft="@dimen/default_margin"
+        android:layout_marginTop="@dimen/item_margin"/>
+
+    <Spinner
+        android:id="@+id/series_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:entries="@array/add_book_page_series_spinner_input"
+        android:hint="@string/add_book_page_description_input"
+        android:paddingLeft="@dimen/default_margin"
+        android:layout_marginTop="@dimen/item_margin"/>
+
+    <Button
+        android:id="@+id/confirm_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/darkGray"
+        android:layout_marginTop="@dimen/default_margin"
+        android:text="@string/add_book_page_button"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+</LinearLayout>

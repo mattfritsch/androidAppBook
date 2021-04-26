@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Book Collection</string>
+
+    <!-- Navigation -->
+    <string name="bottom_home_item">Accueil</string>
+    <string name="bottom_collection_item">Collection</string>
+    <string name="bottom_add_book_item">Ajouter</string>
+
+    <!-- Page d'accueil -->
+    <string name="home_page_title">A découvrir</string>
+    <string name="home_page_last_book_section">Derniers livres</string>
+
+    <!-- Page de collection -->
+    <string name="collection_page_title">Ma Collection</string>
+
+    <!-- Ajout de livre -->
+    <string name="add_book_page_title">Ajout d\'un livre</string>
+    <string name="add_book_page_upload_button">Charger Image</string>
+    <string name="add_book_page_name_input">@string/item_book_name</string>
+    <string name="add_book_page_description_input">@string/item_book_description</string>
+    <array name="add_book_page_autor_input">
+        <item>Comics Marvel</item>
+        <item>Comics DC</item>
+        <item>BD</item>
+        <item>Livre</item>
+    </array>
+    <array name="add_book_page_series_spinner_input">
+        <item>Série : Oui</item>
+        <item>Série : Non</item>
+    </array>
+    <string name="add_book_page_button">Confirmer</string>
+
+    <!-- Fenetre pop-up -->
+    <string name="popup_book_name">Nom du livre</string>
+    <string name="popup_book_description_title">Description</string>
+    <string name="popup_book_description_subtitle">Petite description</string>
+
+    <string name="popup_book_comics_title">Comics</string>
+    <string name="popup_book_comics_subtitle">Petit comics</string>
+
+    <string name="popup_book_series_title">Série</string>
+    <string name="popup_book_series_subtitle">Petite série</string>
+
+    <!-- Livre customisée -->
+    <string name="item_book_name">Titre du livre</string>
+    <string name="item_book_description">Description du livre</string>
+
+</resources>
